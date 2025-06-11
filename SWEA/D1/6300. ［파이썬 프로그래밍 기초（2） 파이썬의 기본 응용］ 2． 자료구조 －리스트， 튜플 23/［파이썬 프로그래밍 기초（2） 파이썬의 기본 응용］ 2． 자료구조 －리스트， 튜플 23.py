@@ -1,0 +1,1 @@
+print([ n for ind, n in enumerate([12, 24, 35, 70, 88, 120, 155]) if ind%2 != 0])
