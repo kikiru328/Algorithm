@@ -1,0 +1,5 @@
+s = "ADCBBBBCABBCBDACBDCAACDDDCAABABDBCBCBDBDBDDABBAAAAAAADADBDBCBDABADCADC"
+
+d = {"A":4, "B":3, "C":2, "D":1}
+x = sum(map(lambda x: d[x], s))
+print(x)
